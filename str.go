@@ -212,3 +212,5 @@ func (s stringv2) Shuffle() stringv2 {
 	}
 	return stringv2(string(runes))
 }
+
+type Stringv2 stringv2
